@@ -1,7 +1,7 @@
 #include <ctype.h>
 /**
  * _islower - check if the c is lowercase or uppercase
- * 0c - is a int parameter
+ * @c: parameter to printed
  * Return: 0 or 1
  */
 int _islower(int c)
