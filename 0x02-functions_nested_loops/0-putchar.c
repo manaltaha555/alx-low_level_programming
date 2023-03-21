@@ -1,8 +1,8 @@
 #include"main.h"
 /**
- * _putchar : print the alphabit
+ * main- print the alphabit in the console
  *
- * Return: Always 0
+ * Return: Always 0(Success)
  */
 int main(void)
 {
