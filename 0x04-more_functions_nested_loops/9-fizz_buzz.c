@@ -23,3 +23,13 @@ void fizz_buzz(void)
 	}
 	printf("\n");
 }
+/*
+ *main - execute the code
+ *Return: always 0
+ *
+ */
+int main (void)
+{
+	fizz_buzz();
+	return (0);
+}
