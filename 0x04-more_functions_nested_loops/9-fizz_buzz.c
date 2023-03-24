@@ -28,7 +28,7 @@ void fizz_buzz(void)
  *Return: always 0
  *
  */
-int main (void)
+int main(void)
 {
 	fizz_buzz();
 	return (0);
