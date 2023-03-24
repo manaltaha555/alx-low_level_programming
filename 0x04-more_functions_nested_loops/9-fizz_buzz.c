@@ -1,35 +1,29 @@
 #include<stdio.h>
 #include"main.h"
 /**
- *fizz_buzz - test for fiter out the programming job candidates
- *Return: void
+ *main - test for fiter out the programming job candidates
+ *Return: always 0
  *
  *
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
 	for (i = 1; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 != 0)
-			printf("Fizz ");
+			printf("Fizz");
 		else if (i % 5 == 0 && i % 3 != 0)
-			printf("Buzz ");
+			printf("Buzz");
 		else if (i % 3 == 0 && i % 5 == 0)
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else
 			printf("%d ", i);
+		if (i == 100)
+			printf(" ");
+		else
+			printf("\n");
 	}
-	printf("\n");
-}
-/*
- *main - execute the code
- *Return: always 0
- *
- */
-int main(void)
-{
-	fizz_buzz();
 	return (0);
 }
