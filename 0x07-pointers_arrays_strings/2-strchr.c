@@ -1,4 +1,3 @@
-#include <stddef.h>
 #include"main.h"
 /**
  *_strchr -  return the first occurance of acharacter in string
@@ -15,9 +14,8 @@ char *_strchr(char *s, char c)
 		size++;
 	for (i = 0; i < size - 1; i++)
 	{
-		ptr = &s[i];
 		if (s[i] == c)
 			return (s + i);
 	}
-	return (NULL);
+	return ('\0');
 }
