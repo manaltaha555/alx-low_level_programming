@@ -8,7 +8,6 @@
  */
 char *_strchr(char *s, char c)
 {
-	char *ptr;
 	int size = 0;
 	int i;
 
@@ -18,7 +17,7 @@ char *_strchr(char *s, char c)
 	{
 		ptr = &s[i];
 		if (s[i] == c)
-			return (ptr);
+			return (s + i);
 	}
 	return (NULL);
 }
