@@ -1,3 +1,4 @@
+#include"mian.h"
 struct dog
 {
 char *name;
