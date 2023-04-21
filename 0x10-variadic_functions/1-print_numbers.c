@@ -15,7 +15,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	if (!n)
 		printf("\n");
-	if (!separator)
+	if (separator == NULL)
 		printf("\n");
 	if (separator && n)
 	{
