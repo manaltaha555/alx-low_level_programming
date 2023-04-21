@@ -15,6 +15,8 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 
 	if (!n)
 		printf("\n");
+	if (!separator)
+		printf("\n");
 	if (separator && n)
 	{
 		va_start(list, n);
