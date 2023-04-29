@@ -1,4 +1,5 @@
 #include"lists.h"
+#include<stdio.h>
 /**
  *print_listint -  print numbers of elements in a list
  *@h: pointer to alist
