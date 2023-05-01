@@ -1,6 +1,6 @@
 #include"lists.h"
 /**
- *pop_listint remove the first element in the list
+ *pop_listint - remove the first element in the list
  *@head: the list
  *Return: value of the deleted element
  *
