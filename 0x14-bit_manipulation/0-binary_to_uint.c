@@ -20,7 +20,16 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[i] < 'a' || b[i] > 'z')
 		{
-			break;
+			if (b[i] == 'b')
+			{
+				count1++;
+				break;
+			}
+			else
+			{
+				count2++;
+				break;
+			}
 		}
 		j++;
 		count1++;
