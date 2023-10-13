@@ -1,6 +1,6 @@
 #include"lists.h"
 /**
- *dlistint_le - function find the lenght of a double linked list
+ *dlistint_len - function find the lenght of a double linked list
  *@h: header of the double linked list
  *Return: lenght of the linked list
  *
